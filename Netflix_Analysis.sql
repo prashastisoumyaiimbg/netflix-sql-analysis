@@ -39,5 +39,8 @@ GROUP BY m.Movie_ID, m.Name, m.Year;
 popularity by integrating movie metadata with over 100,000 ratings using Inner Joins. 
 Through data aggregation, I identified that while 'Immortal Beloved' (1994) holds the 
 highest quality score of 3.78, 'Something's Gotta Give' (2003) is a major popularity hit 
-with 91,672 total votes. My analysis of user behavior isolated the top 5 most active reviewers, led by User 2118461 with 15 ratings, who represent the 'power users' critical for recommendation engine accuracy. Finally, by implementing Window Functions, I established a yearly competitive ranking which identified 'What the #$*! Do We Know!?' as the #1 ranked film for 2004, providing a framework for historical content benchmarking and data-driven licensing strategies.
+with 91,672 total votes. My analysis of user behavior isolated the top 5 most active reviewers, led by User 2118461 with 15 ratings,
+who represent the 'power users' critical for recommendation engine accuracy. Finally, by implementing Window Functions, 
+I established a yearly competitive ranking which identified 'What the #$*! Do We Know!?' as the #1 ranked film for 2004,
+providing a framework for historical content benchmarking and data-driven licensing strategies.
 */
